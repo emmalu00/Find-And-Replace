@@ -36,7 +36,7 @@ int main(int argc, char* argv[])
             int subIndex = findSubstring(oldText, oldWord, position);
             if (subIndex == -1)
             {
-                strConcat(newText, oldText, position, textLength);
+                stringConcat(newText, oldText, position, textLength);
                 position = textLength;
             }
             else
